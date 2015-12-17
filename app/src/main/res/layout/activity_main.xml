@@ -1,0 +1,69 @@
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+    <!--
+    *************************************************
+    * Adrian Paiva
+    * 100864588
+    * ‎Friday, ‎October ‎3, ‎2014
+    * lastEdit: October ‎11, ‎2014
+    **************************************************-->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/monsterMatch"
+        android:id="@+id/textView"
+        android:layout_weight="0.10"
+        android:typeface="monospace"
+        android:textSize="40dp"
+        android:textColor="#f18"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:id="@+id/playBTN"
+        android:layout_marginLeft="85dp"
+        android:clickable="true"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="71dp"
+        android:onClick="startGame" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scoreboard"
+        android:id="@+id/scoreboardBTN"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/playBTN"
+        android:layout_alignLeft="@+id/playBTN"
+        android:layout_alignStart="@+id/playBTN"
+        android:onClick="scoreboard"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:id="@+id/aboutBTN"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/scoreboardBTN"
+        android:layout_alignLeft="@+id/scoreboardBTN"
+        android:layout_alignStart="@+id/scoreboardBTN"
+        android:layout_alignRight="@+id/playBTN"
+        android:layout_alignEnd="@+id/playBTN"
+        android:onClick="about"/>
+
+</RelativeLayout>

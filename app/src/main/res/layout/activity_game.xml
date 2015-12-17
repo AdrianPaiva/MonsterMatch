@@ -1,0 +1,177 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background">
+
+    <!--
+    *************************************************
+    * Adrian Paiva
+    * 100864588
+    * ‎Friday, ‎October ‎3, ‎2014
+    * lastEdit: October ‎11, ‎2014
+    **************************************************-->
+
+
+
+
+
+
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_alignTop="@+id/view4"
+        android:layout_alignLeft="@+id/view2"
+        android:layout_alignStart="@+id/view2" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+
+        android:layout_alignTop="@+id/view3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_alignTop="@+id/view6"
+        android:layout_alignLeft="@+id/view4"
+        android:layout_alignStart="@+id/view4" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_alignTop="@+id/view7"
+        android:layout_alignLeft="@+id/view5"
+        android:layout_alignStart="@+id/view5" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_alignTop="@+id/view8"
+        android:layout_toLeftOf="@+id/view8"
+        android:layout_toStartOf="@+id/view8"
+        android:layout_marginRight="110dp" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_alignTop="@+id/view9"
+        android:layout_alignLeft="@+id/view7"
+        android:layout_alignStart="@+id/view7" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_above="@+id/view9"
+        android:layout_alignLeft="@+id/view8"
+        android:layout_alignStart="@+id/view8" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_toStartOf="@+id/view11"
+        android:layout_marginRight="118dp"
+        android:layout_alignTop="@+id/view11"
+        android:layout_toLeftOf="@+id/view11" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_below="@+id/view10"
+        android:layout_alignLeft="@+id/view10"
+        android:layout_alignStart="@+id/view10"
+        android:layout_marginTop="24dp" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_marginTop="38dp"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_alignLeft="@+id/view11"
+        android:layout_alignStart="@+id/view11" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="19dp" />
+    <ca.gbc.mobile.adrianpaiva.matchit.CardView
+        android:id="@+id/view12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mainback"
+        android:layout_alignTop="@+id/view5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/timerTextView"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#f18"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:id="@+id/quitButton"
+        android:textColor="#f18"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/timerTextView"
+        android:layout_alignLeft="@+id/view9"
+        android:layout_alignStart="@+id/view9" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignRight="@+id/view6"
+        android:layout_alignEnd="@+id/view6"
+        android:layout_below="@+id/view5"
+        android:layout_alignLeft="@+id/view3"
+        android:layout_alignStart="@+id/view3"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:textColor="#f18"
+            android:id="@+id/nameedit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="150dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_to_score"
+            android:id="@+id/submitButton"
+            android:textColor="#f18"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>

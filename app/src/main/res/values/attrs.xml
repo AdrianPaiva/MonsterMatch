@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+    *************************************************
+    * Adrian Paiva
+    * 100864588
+    * ‎Friday, ‎October ‎3, ‎2014
+    * lastEdit: October ‎11, ‎2014
+    **************************************************-->
+<resources>
+    <declare-styleable name="CardView">
+        <attr name="frontSrc" format="reference"/>
+        <attr name="backSrc" format="reference"/>
+        <attr name="flipped" format="boolean" />
+    </declare-styleable>
+</resources>

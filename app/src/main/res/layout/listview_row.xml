@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+*************************************************
+* Adrian Paiva
+* 100864588
+* ‎Friday, ‎October ‎10, ‎2014
+* lastEdit: October ‎11, ‎2014
+**************************************************-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/scoreName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_weight="1"
+        android:textSize="25dp"
+        android:textColor="#ffffceef">
+    </TextView>
+
+    <TextView
+        android:id="@+id/scoreScore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:layout_weight="2"
+        android:textSize="25dp"
+        android:textColor="#ffffceef">
+    </TextView>
+
+</LinearLayout>
